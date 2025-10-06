@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(135deg,#ffe6f2,#ffb6d9);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+.game-container {
+  background: #fff0f7;
+  border: 3px solid #ff4da6;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+h1 {
+  color: magenta;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+#question {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+.option {
+  background: #ff66b3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 90%;
+  max-width: 300px;
+}
+.option:hover {
+  background: #ff85c1;
+}
+button#next-btn {
+  background: magenta;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+#result {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #222;
+  margin-top: 20px;
+}
